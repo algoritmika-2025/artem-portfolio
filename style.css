@@ -1,1 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #721879; /* светлый фон */
+  margin: 0;
+  padding: 20px;
+  line-height: 1.6;
+}
 
+/* Стили для шапки (header) */
+header {
+  display: flex;
+  justify-content: center; /* выравнивание по центру */
+  gap: 20px; /* расстояние между ссылками */
+  background-color: #210c51; /* темный фон */
+  padding: 15px 0;
+}
+
+.link-header {
+  color: #ff0000; /* белый цвет текста */
+  text-decoration: none;
+  font-size: 18px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.link-header:hover {
+  background-color: #501010; /* чуть светлее при наведении */
+  color: #544a12; /* золотой цвет при наведении */
+}
+
+/* Основной контент */
+main {
+  max-width: 900px;
+  margin: 20px auto;
+}
+
+/* Стили для секций */
+section {
+  background-color: #ffe8ba; /* белый фон для секций */
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px; /* скругление углов */
+  
+}
+
+/* Заголовки внутри секций */
+h1 {
+  color: #000000;
+}
+
+/* Стили для списка */
+ul {
+  list-style-type: disc; /* маркеры в виде дисков */
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Стили для изображений в разделе "Моё Любимое увлечение" и других картинок */
+section img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-top:10px;
+}
+
+/* Стили для футера */
+footer {
+  text-align: center;
+  margin-top:40px;
+}
+
+/* Стили для иконки соцсети */
+.social img {
+    border-radius:50%; /* круглая иконка, по желанию */
+    transition: transform .3s ease;
+}
+
+.social img:hover {
+    transform: scale(1.1); /* немного увеличивается при наведении */
+}
